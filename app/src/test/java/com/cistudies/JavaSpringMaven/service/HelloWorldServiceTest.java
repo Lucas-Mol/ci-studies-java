@@ -14,6 +14,6 @@ class HelloWorldServiceTest {
 
     @Test
     void givenNameReturnHelloWorldName() {
-        assertEquals("Hello World, Joe", helloWorldService.helloWorldBuilder("Joe"));
+        assertEquals("Hello World, Jo", helloWorldService.helloWorldBuilder("Joe"));
     }
 }
