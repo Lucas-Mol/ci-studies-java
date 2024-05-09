@@ -22,7 +22,6 @@ jobs:
       run: mvn -B package --file app/pom.xml
 
 ---
-
 name: Build and push a container
 
 on:
